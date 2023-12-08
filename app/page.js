@@ -36,6 +36,10 @@ export default function Home() {
         </section>
       </div>
       <div className="test_section">
+        <div className="test_title_section">
+          <h1 className="test_title">OUR REVIEWS</h1>
+        </div>
+      <div className="card_section">
         <div className="card1">
           <Image 
           src="/images/test1.png"
@@ -88,9 +92,9 @@ export default function Home() {
           className="rate_image"
           />
           <h2 className="card_title">Jake Phillips</h2>
-          
           <p className="card_text">“Sign up for Golden Slice’s newsletter and score a fantastic 30% off your first order - great pizzas at an even greater price!”</p>
         </div>
+      </div>
       </div>
       <div className="line"></div>
       <div className="menu_section">
