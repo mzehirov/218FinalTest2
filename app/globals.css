@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -60,7 +61,7 @@ main{
   /* border: 2px solid red; */
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.40);
-  font-family: 'Suez One', sans-serif;
+  font-family: Suez One, serif;
   color: #FFF;
   text-align: center;
   font-size: 450%;
@@ -91,14 +92,14 @@ main{
 .menu_section {
   width: 100%;
   display: inline-flex;
-  margin: 2rem 0 2rem 0;
+  margin: 1rem 0 2rem 0;
   /* border: 2px solid red; */
   
 }
 .menu_text_section {
   width: 55%;
   /* border: 2px solid purple; */
-  padding: 4rem 2rem 4rem 3rem;
+  padding: 2rem 2rem 4rem 3rem;
   margin-left: 1rem;
 }
 .menu_header, .account_header{
@@ -178,4 +179,55 @@ i {
   color: #FFF;
   padding: 0.5rem 3rem 0.5rem 3rem;
   text-align: center;
+}
+
+.test_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.card1, .card3 {
+  width: 21.48438rem;
+  height: 28.79144rem;
+  border-radius: 0.9375rem;
+  background: linear-gradient(90deg, #6B1F1F 0%, #AE6969 50.24%, #6B1F1F 98.42%);
+}
+.card2 {
+  width: 21.48438rem;
+  height: 28.79144rem;
+  border-radius: 0.9375rem;
+  background: linear-gradient(90deg, #343434 0%, rgba(52, 52, 52, 0.68) 50.24%, #343434 98.42%);
+}
+.test_image {
+  margin: 1rem auto;
+  width: 8.05663rem;
+}
+.card_title {
+  color: #FFF;
+  margin: .5rem auto;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card_text {
+  padding: 0 2rem;
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rate_image {
+  margin: 1.5rem auto 0 auto;
+}
+.line {
+  width: 85%;
+  margin: 2rem auto 0 auto;
+  border-top: 5px solid black;
 }

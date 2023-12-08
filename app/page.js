@@ -35,6 +35,64 @@ export default function Home() {
           />
         </section>
       </div>
+      <div className="test_section">
+        <div className="card1">
+          <Image 
+          src="/images/test1.png"
+          alt="Review Image"
+          width={100}
+          height={100}
+          className="test_image"
+          />
+          <Image 
+          src="/images/rate.png"
+          alt="Rating"
+          width={100}
+          height={100}
+          className="rate_image"
+          />
+          <h2 className="card_title">Mike Mayir</h2>
+          <p className="card_text">“Golden Slice offers amazing value with their Tuesday 2-for-1 deal, combining delicious, authentic flavors with unbeatable prices!”</p>
+        </div>
+        <div className="card2">
+          <Image 
+            src="/images/test2.png"
+            alt="Review Image"
+            width={100}
+            height={100}
+            className="test_image"
+            />
+            <Image 
+            src="/images/rate.png"
+            alt="Rating"
+            width={100}
+            height={100}
+            className="rate_image"
+            />
+          <h2 className="card_title">Samantha Collins</h2>
+          <p className="card_text">“Golden Slice serves up a delightful experience with its crispy, flavorful crust and fresh toppings. A must-visit for pizza enthusiasts!”</p>
+        </div>
+        <div className="card3">
+          <Image 
+            src="/images/test3.png"
+            alt="Review Image"
+            width={100}
+            height={100}
+            className="test_image"
+          />
+          <Image 
+          src="/images/rate4.png"
+          alt="Rating"
+          width={100}
+          height={100}
+          className="rate_image"
+          />
+          <h2 className="card_title">Jake Phillips</h2>
+          
+          <p className="card_text">“Sign up for Golden Slice’s newsletter and score a fantastic 30% off your first order - great pizzas at an even greater price!”</p>
+        </div>
+      </div>
+      <div className="line"></div>
       <div className="menu_section">
         <section className="menu_text_section">
           <h1 className="menu_header">Explore Our Menu</h1>
@@ -60,7 +118,6 @@ export default function Home() {
           <p className="account_p">Sign up for our Loyalty Program and turn every bite into rewards – because the best pizzas should always come with extra perks!</p>
           <Link className="account_link" href="/">Join Now</Link>
         </section>
-
       </div>
     </main>
   )

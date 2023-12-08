@@ -17,9 +17,9 @@
 }
 
 .logo .img{
-    width: 100%;
-    max-width: 300px;
-    min-width: 100px;
+    width: 20rem;
+    /* max-width: 300px;
+    min-width: 100px; */
 }
 
 .nav {
