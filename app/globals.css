@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,22 +7,175 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --font-primary: 'Angkor', sans-serif;
+  --font-secondary: 'Poppins', sans-serif;
 }
+main{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* .hero_section {
+  display: inline-flex;
+  height: auto;
+  border: 1px solid red;
+}
+.hero_text_section {
+  margin: auto, 0;
+  width: 21.8125rem;
+  justify-content: flex-end;
+  width: 35%;
+  border: 1px solid green;
+}
+.hero_text {
+  color: #FFF;
+  font-family: 'Angkor', sans-serif;
+  font-size: 2.0375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  border: 1px solid blue;
+  margin-top: 50%;
+}
+.hero_image_section {
+  display: flex;
+  width: 65%;
+  border: 1px solid #000;
+} */
+.hero_section {
+  margin-top: 2rem;
+  position: relative;
+}
+.hero_text_section {
+  width: 100%;
+  position: absolute;
+  margin: 1.5rem auto;
+  left: 50%;
+  transform: translateX(-50%); 
+  
+}
+.hero_text {
+  width: fit-content;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.40);
+  font-family: 'Suez One', sans-serif;
+  color: #FFF;
+  text-align: center;
+  font-size: 450%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero_image_section {
+  display: flex;
+  width: 100%;
+}
+.hero_link {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 3.4375rem;
+  border: 1px solid #FFF;
+  background: #343434;
+  font-family: var(--font-second);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  padding: 1rem 3rem 1rem 3rem;
+  text-align: center;
+}
+.menu_section {
+  width: 100%;
+  display: inline-flex;
+  margin: 2rem 0 2rem 0;
+  /* border: 2px solid red; */
+  
+}
+.menu_text_section {
+  width: 55%;
+  /* border: 2px solid purple; */
+  padding: 4rem 2rem 4rem 3rem;
+  margin-left: 1rem;
+}
+.menu_header, .account_header{
+  font-family: var(--font-primary);
+  font-size: 2.0375rem;
+  margin-bottom: 1rem;
+}
+.menu_p, .account_p {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+}
+.menu_image_section{
+  width: 50%;
+  /* border: 2px solid green; */
+  padding: 2rem;
+}
+.menu_image{
+  width: 70%;
+  margin: 0 auto;
+}
+.menu_p {
+  margin-bottom: 2rem;
+}
+.menu_link {
+  border-radius: 3.4375rem;
+  /* border: 2px solid blue; */
+  background: #6B1F1F;
+  font-family: var(--font-second);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  text-align: center;
+}
+.account_section {
+  width: 100%;
+  display: inline-flex;
+  /* border: 2px solid black; */
+  background: rgba(173, 173, 173, 0.25);
+  padding: 3rem 0 3rem 0;
+  margin-bottom: 1rem;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+.account_image_section {
+  /* border: 2px solid orange; */
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 1200%;
+  
+}
+.account_p {
+  margin-bottom: 1rem;
+}
+.account_text_section {
+ width: 65%;
+ /* border: 2px solid blue; */
+ padding-right: 2.7rem;
+}
+.account_link {
+  width: fit-content;
+  display: flex;
+  margin-left: auto;
+  border-radius: 3.4375rem;
+  /* border: 2px solid blue; */
+  background: #343434;
+  font-family: var(--font-second);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  text-align: center;
 }
