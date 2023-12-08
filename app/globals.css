@@ -180,8 +180,20 @@ i {
   padding: 0.5rem 3rem 0.5rem 3rem;
   text-align: center;
 }
+/* .test_title_section {
 
-.test_section {
+} */
+.test_title {
+  margin: 1rem auto;
+  text-align: center;
+  color: #000;
+  font-family: Angkor;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.card_section {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
