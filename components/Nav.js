@@ -14,7 +14,7 @@ const Navbar = () => {
                 <div>
                     <ul className={styles.nav}>
                         {/* <Link href="/" className={styles.a}>Order Now</Link> */}
-                        <Link href="/" className={styles.a}>Menu</Link>
+                        <Link href="/menu" className={styles.a}>Menu</Link>
                         <Link href="/" className={styles.a}>Join Rewards</Link>
                     </ul>
                 </div>

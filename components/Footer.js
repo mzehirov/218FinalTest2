@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './Footer.module.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
     return (

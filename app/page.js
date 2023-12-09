@@ -101,7 +101,7 @@ export default function Home() {
         <section className="menu_text_section">
           <h1 className="menu_header">Explore Our Menu</h1>
           <p className="menu_p">Embark on a journey through our extensive menu of handcrafted pizzas, each slice a masterpiece of taste.</p>
-          <Link className="menu_link" href="/">View Menu</Link>
+          <Link className="menu_link" href="/menu">View Menu</Link>
         </section>
         <section className="menu_image_section">
         <Image
