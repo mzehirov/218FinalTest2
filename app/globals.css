@@ -93,7 +93,7 @@ main{
 .menu_section {
   width: 100%;
   display: inline-flex;
-  margin: 2.5rem 0 2.8rem 0;
+  margin: 2.5rem 0 0rem 0;
   /* border: 2px solid red; */
   
 }
@@ -135,7 +135,7 @@ main{
   font-weight: 700;
   line-height: normal;
   color: #FFF;
-  padding: 0.5rem 3rem 0.5rem 3rem;
+  padding: 0.65rem 5.75rem 0.65rem 5.75rem;
   text-align: center;
 }
 .account_section {
@@ -143,28 +143,28 @@ main{
   display: inline-flex;
   /* border: 2px solid black; */
   background: rgba(173, 173, 173, 0.25);
-  padding: 3rem 0 3rem 0;
-  margin-bottom: 1rem;
+  padding: 4.46rem 0 3.3rem 0;
+  /*margin-bottom: 1rem;*/
 
 }
 .account_image_section {
   /* border: 2px solid orange; */
-  width: 35%;
+  width: 28%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 1rem;
 }
-i {
-  font-size: 1200%;
-  
+.account_section i{
+  font-size: 158px;
 }
 .account_p {
   margin-bottom: 1rem;
 }
 .account_text_section {
- width: 65%;
+ width: 72%;
  /* border: 2px solid blue; */
- padding-right: 2.7rem;
+ padding-right: 5rem;
 }
 .account_link {
   width: fit-content;
@@ -179,7 +179,7 @@ i {
   font-weight: 700;
   line-height: normal;
   color: #FFF;
-  padding: 0.5rem 3rem 0.5rem 3rem;
+  padding: 0.65rem 4.45rem 0.65rem 4.45rem;
   text-align: center;
 }
 /* .test_title_section {
