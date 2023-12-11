@@ -44,55 +44,58 @@ export default function Home() {
           <Image 
           src="/images/test1.png"
           alt="Review Image"
-          width={100}
-          height={100}
+          width={128}
+          height={136}
           className="test_image"
           />
-          <Image 
-          src="/images/rate.png"
-          alt="Rating"
-          width={100}
-          height={100}
-          className="rate_image"
-          />
+
           <h2 className="card_title">Mike Mayir</h2>
           <p className="card_text">“Golden Slice offers amazing value with their Tuesday 2-for-1 deal, combining delicious, authentic flavors with unbeatable prices!”</p>
+          <Image 
+          src="/images/rate4.png"
+          alt="Rating"
+          width={200}
+          height={32}
+          className="rate_image"
+          />
         </div>
         <div className="card2">
           <Image 
             src="/images/test2.png"
             alt="Review Image"
-            width={100}
-            height={100}
+            width={128}
+            height={136}
             className="test_image"
             />
-            <Image 
-            src="/images/rate.png"
-            alt="Rating"
-            width={100}
-            height={100}
-            className="rate_image"
-            />
+            
           <h2 className="card_title">Samantha Collins</h2>
           <p className="card_text">“Golden Slice serves up a delightful experience with its crispy, flavorful crust and fresh toppings. A must-visit for pizza enthusiasts!”</p>
+          <Image 
+            src="/images/rate.png"
+            alt="Rating"
+            width={200}
+            height={32}
+            className="rate_image"
+            />
         </div>
         <div className="card3">
           <Image 
             src="/images/test3.png"
             alt="Review Image"
-            width={100}
-            height={100}
+            width={128}
+            height={136}
             className="test_image"
           />
-          <Image 
-          src="/images/rate4.png"
-          alt="Rating"
-          width={100}
-          height={100}
-          className="rate_image"
-          />
+          
           <h2 className="card_title">Jake Phillips</h2>
           <p className="card_text">“Sign up for Golden Slice’s newsletter and score a fantastic 30% off your first order - great pizzas at an even greater price!”</p>
+          <Image 
+          src="/images/rate.png"
+          alt="Rating"
+          width={200}
+          height={32}
+          className="rate_image2"
+          />
         </div>
       </div>
       </div>
@@ -101,14 +104,15 @@ export default function Home() {
         <section className="menu_text_section">
           <h1 className="menu_header">Explore Our Menu</h1>
           <p className="menu_p">Embark on a journey through our extensive menu of handcrafted pizzas, each slice a masterpiece of taste.</p>
-          <Link className="menu_link" href="/menu">View Menu</Link>
+          <p className="menu_p">Check out our various options that we have to offer.</p>
+          <Link className="menu_link" href="/menu">MENU</Link>
         </section>
         <section className="menu_image_section">
         <Image
             src="/images/menu.png"
             alt="Sharing Pizza"
-            width={10000}
-            height={100}
+            width={438}
+            height={418}
             className="menu_image"
           />
         </section>
