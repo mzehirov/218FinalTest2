@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className={styles.menu}>
                 <div className={styles.logo}>
                     <Link href="/">
-                        <Image priority src="/images/logo.webp" alt="logo" width={130} height={77} className={styles.img} />
+                        <Image priority src="/images/logo.webp" alt="logo" width={418} height={56}  />
                     </Link>
                 </div>
                 <div>
