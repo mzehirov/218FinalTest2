@@ -64,7 +64,7 @@ main{
   font-family: 'Angkor', serif;
   color: #FFF;
   text-align: center;
-  font-size: 450%;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -77,12 +77,12 @@ main{
 .hero_link {
   width: fit-content;
   display: flex;
-  margin: 28rem auto 0rem auto;
+  margin: 30rem auto 0rem auto;
   border-radius: 3.4375rem;
   border: 1px solid #FFF;
   background: #343434;
   font-family: var(--font-second);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
