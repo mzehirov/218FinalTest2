@@ -18,7 +18,7 @@ const Footer = () => {
                     <p className={styles.copy}>&copy; 2023 Golden Slice</p>
             </div>
             <div className={styles.comp}>
-                    <p class={styles.bold}>Company</p>
+                    <p className={styles.bold}>Company</p>
                     <br/>
                     <p>About Us</p>
                     <p>Careers</p>
